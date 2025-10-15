@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лионель Месси - Карьера және Жетістіктері</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #121212, #1e1e1e, #121212);
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        header img {
+            max-width: 85%;
+            border-radius: 15px;
+            box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+            border: 2px solid #f5c518;
+        }
+        section {
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 1s ease;
+        }
+        section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        h1, h2, h3 {
+            text-align: center;
+            color: #f5c518;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+            opacity: 0;
+            transform: scale(0.9);
+            transition: all 1s ease;
+        }
+        .gallery.visible {
+            opacity: 1;
+            transform: scale(1);
+        }
+        .gallery img {
+            width: 45%;
+            height: auto;
+            object-fit: cover;
+            border: 2px solid #f5c518;
+            border-radius: 12px;
+            transition: all 0.4s ease;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        p {
+            text-align: justify;
+            font-size: 19px;
+        }
+        footer {
+            text-align: center;
+            background: #1e1e1e;
+            padding: 30px;
+            margin-top: 40px;
+            border-top: 2px solid #f5c518;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 1s ease;
+        }
+        footer.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        footer h2 {
+            margin-bottom: 15px;
+        }
+        footer p {
+            font-size: 18px;
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://media.cnn.com/api/v1/images/stellar/prod/221221005245-01-messi-world-cup-celebration-121822-restricted.jpg?c=original" alt="Лионель Месси">
+    <h1>Лионель Месси – Футбол Әлемінің Аңызы</h1>
+</header>
+
+<section>
+    <h2>Карьерасы</h2>
+    <p>Лионель Андрес Месси 1987 жылы Аргентинада дүниеге келді. Ол бала кезінен-ақ допты қолынан тастамайтын, футболды өзінің өмірлік арманына айналдырған ерекше дарын иесі болды. Оның бойы аласа болғанымен, ол алаңдағы ең биік тұлғаға айналды. 2000 жылы жасөспірім шағында Испанияға барып, "Барселона" клубының жастар академиясына қабылданды. Ла Масияда Месси өте қысқа уақыт ішінде өзінің болашағы зор екенін дәлелдеді. Ол 2004 жылы негізгі құрамда алғаш рет алаңға шығып, аз уақыттың ішінде бүкіл әлем назарын өзіне аударды. Оның жылдамдығы, дриблингтегі шеберлігі, ойын оқи білуі және шешуші сәттерде гол соғу қабілеті жанкүйерлерді таңғалдырды. Месси тек қана гол соғумен шектелмей, әріптестеріне көптеген голдық пас беріп, команданың негізгі тірегіне айналды. Оның мансабы барысында "Барселона" клубымен бірге 10 рет Ла Лига, 7 рет Испания кубогы, 4 рет Чемпиондар Лигасы және көптеген басқа трофейлерді жеңіп алды.</p>
+    <div class="gallery">
+        <img src="https://pbs.twimg.com/media/DDEr4nkXgAAc7qc.jpg:large" alt="Messi Barcelona Early">
+        <img src="https://scontent.fala1-1.fna.fbcdn.net/v/t39.30808-6/474475797_1224607255696715_1268879506290188844_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=EDqd5CAJFfQQ7kNvwETToec&_nc_oc=AdlIAkMJrYskSITqyzAB9BfKpaObBYkf98b6tVQC0e8_NiceW3Ac-FL2hLOQ0FKxcHY&_nc_zt=23&_nc_ht=scontent.fala1-1.fna&_nc_gid=qindLurrAtobp92Y-WLZAQ&oh=00_AfYjU3RUuE-E-WEV-9HDRA556OgGweQ863hPckQamOoKlA&oe=68E19011" alt="Messi Career Moment">
+    </div>
+</section>
+
+<section>
+    <h2>2022 жылғы Әлем Чемпионаты</h2>
+    <p>2022 жылы Катарда өткен Әлем чемпионаты футбол тарихындағы ең әсерлі турнирлердің бірі болды. Аргентина құрамасы үлкен үмітпен келген болатын, ал Месси өзінің соңғы әлемдік додасында командасын жеңіске жеткізуді армандады. Ол топтық кезеңнен бастап финалға дейін әр ойында негізгі рөл атқарды. Нидерландыға қарсы ширек финалда пенальтиден салқынқанды гол соқты, жартылай финалда Хорватияға қарсы матчта фантастикалық дриблинг көрсетіп, Альвареске голдық пас берді. Финалда Франциямен өткен тарихи ойында Месси екі гол соғып, тағы да өзінің ұлылығын дәлелдеді. Ақыр соңында Аргентина пенальти сериясында жеңіске жетіп, Месси әлем чемпионы атанды. Бұл оның карьерасының ең жарқын жетістігі болды.</p>
+    <div class="gallery">
+        <img src="https://m.media-amazon.com/images/I/81zXzdp9ZYL._UF894,1000_QL80_.jpg" alt="Messi World Cup Trophy">
+        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/opb/JT3IVCOJDKW3PBRFZAZUILENLU.jpg" alt="Messi World Cup 2022">
+    </div>
+</section>
+
+<section>
+    <h2>Золотой мяч</h2>
+    <p>Лионель Месси – футбол тарихындағы ең көп "Золотой мяч" иегері. Ол бұл марапатты 8 рет жеңіп алып, өзінің замандастарының бәрінен озып кетті. Бұл оның тек бір маусымдық емес, ұзақ жылдар бойы үздік деңгейде өнер көрсеткенін дәлелдейді. Месси өзінің алғашқы "Золотой мячын" 2009 жылы алды. Кейінгі жылдары да қатарынан бірнеше рет жеңіп алып, өзінің тұрақты ұлылығын дәлелдеді. Оның әрбір жеңісі футболдағы ең үздік болу үшін қажымай еңбек еткенін көрсетті. Бұл марапаттар тек оның жеке шеберлігін емес, оның командаға қосқан үлесін де айқындайды.</p>
+    <div class="gallery">
+        <img src="https://pbs.twimg.com/media/F9rkWmCWQAALhko.jpg:large" alt="Ballon d'Or Messi">
+        <img src="https://scontent.fala1-1.fna.fbcdn.net/v/t39.30808-6/474475797_1224607255696715_1268879506290188844_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=EDqd5CAJFfQQ7kNvwETToec&_nc_oc=AdlIAkMJrYskSITqyzAB9BfKpaObBYkf98b6tVQC0e8_NiceW3Ac-FL2hLOQ0FKxcHY&_nc_zt=23&_nc_ht=scontent.fala1-1.fna&_nc_gid=QMC5y7o0ZdjPrtAySyvPYg&oh=00_AfYH_a-VS7gfv3byJoeEDNmLI2nX5xHA4COgyq2Y9VxZdw&oe=68E19011" alt="Messi Ballon d'Or Ceremony">
+    </div>
+</section>
+
+<section>
+    <h2>Эль Классико</h2>
+    <p>Месси "Эль Классико" матчтарында ерекше орынға ие болды. Оның "Реал Мадридке" қарсы ойындары әрқашан тарихта қалады. Ол 26 гол соғып, бұл көрсеткіш бойынша тарихтағы ең үздік ойыншы болып табылады. Мессидің "Сантьяго Бернабеуде" алаң ортасында жейдесін көтеріп көрсеткен сәті мәңгі есте қалады. Әр ойында ол жанкүйерлерге қуаныш сыйлап, өзінің ұлылығын дәлелдеді. Эль Классико – Мессидің футболдағы басты аренасы болды.</p>
+    <div class="gallery">
+        <img src="https://pbs.twimg.com/media/EWRuZKRXYAA75bf.jpg" alt="Messi Clasico 1">
+        <img src="https://scontent.fala1-1.fna.fbcdn.net/v/t39.30808-6/499796666_1177456004395771_5179942433412950848_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=TEzlXwxwtvwQ7kNvwGJup48&_nc_oc=Adk3LORnP7G_u5n3cZNlCezw1g7NHvqerGFIO-FBMS5rcxAWXW65KE6T-0hEHZHKoPI&_nc_zt=23&_nc_ht=scontent.fala1-1.fna&_nc_gid=qObudimm2F20JA0uWrTk4w&oh=00_AfZMKcZFlFy0KeDMchUSXIJtH6QhdysraFf-5UOYNzxa2g&oe=68E18B4B" alt="Messi Clasico 2">
+    </div>
+</section>
+
+<section>
+    <h2>2011 жылғы Чемпиондар Лигасы Финалы</h2>
+    <p>2011 жылы "Барселона" мен "Манчестер Юнайтед" арасындағы финал футбол тарихындағы ең үздік ойындардың бірі ретінде есте қалды. Ол финалда Месси ерекше ойнап, бір гол соқты және матчтың үздік ойыншысы атанды. Оның ойынға қосқан үлесі соншалық, көптеген сарапшылар оған 10/10 баға берді. Ол тек қана гол соғып қойған жоқ, сонымен қатар бүкіл алаңды басқарып, әр шабуылдың негізінде тұрды. Бұл финал оның карьерасындағы ең керемет матчтардың бірі болды.</p>
+    <div class="gallery">
+        <img src="https://pbs.twimg.com/media/EZGpmn3X0AAf3J_?format=jpg&name=4096x4096" alt="Messi Final 2011">
+        <img src="https://pbs.twimg.com/media/FT3Od2JacAEmpnK.jpg" alt="Messi vs Man United Final">
+    </div>
+</section>
+
+<section>
+    <h2>Есте қаларлық сәт – 27.04.2011</h2>
+    <p>2011 жылғы 27 сәуірде Чемпиондар Лигасының жартылай финалында "Реал Мадридке" қарсы ойында Месси футбол тарихындағы ең әдемі голдардың бірін соқты. Ол бірнеше қорғаушыны алдап өтіп, қақпаға фантастикалық гол соқты. Комментатордың әйгілі сөзі: "Here’s Messi, away from 2, 3, 4… Wonderful, wonderful, wonderful!" – бүкіл футбол әлеміне тарап кетті. Бұл сәт Мессидің футбол тарихындағы ең ұлы ойыншылардың бірі екенін тағы да дәлелдеді.</p>
+    <div class="gallery">
+        <img src="https://scontent.fala1-1.fna.fbcdn.net/v/t1.6435-9/94766914_3103199626428810_5578503158419685376_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=O8EBq8BovsAQ7kNvwFUdN9S&_nc_oc=AdndULRkIMtb7G9EkM4nLwJgkbWLq5YwHc2jp15JIXdyoOml9xLz7XnzJ2Loak6cXIE&_nc_zt=23&_nc_ht=scontent.fala1-1.fna&_nc_gid=UIQ3T326EEkYr-A_LMUU-w&oh=00_AfbXIDz_vCe8HNhq93omQ3zEq29OfKY25tZJbvsv7UBf2Q&oe=69030101" alt="Messi Clasico Goal">
+        <img src="https://pbs.twimg.com/media/Ez8-GvaXoAMec5c.jpg:large" alt="Messi 2011 Wonder Goal">
+    </div>
+</section>
+
+<footer>
+    <h2>Қорытынды</h2>
+    <p>Лионель Месси – тек футболшы ғана емес, ол еңбекқорлықтың, адалдықтың және ұлылықтың символы. Оның карьерасы миллиондаған жанкүйерлерге шабыт сыйлады. Ол әрқашан алаңда да, одан тыс жерде де қарапайым бола білді. Месси футбол тарихында мәңгілікке аты жазылған аңыз болып қала береді.</p>
+</footer>
+
+<script>
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+            }
+        });
+    }, { threshold: 0.2 });
+
+    document.querySelectorAll("section, .gallery, footer").forEach(el => {
+        observer.observe(el);
+    });
+</script>
+
+</body>
+</html>
